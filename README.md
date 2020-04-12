@@ -8,6 +8,8 @@ Walk through each step of implementing an array. Don't rush through this by copy
 
 Be sure to export the memory module and then import it using require.
 
+  > Array class: `./drills/Array.js`
+
 ### 2. Explore the push() method  
 
 Using the Array class you just created above, add an item to the array. Use the following function:
@@ -27,6 +29,8 @@ function main(){
 }
 ```
 
+  > `./drills/push.js`
+  
   - What is the length, capacity and memory address of your array?
 
   - Add the following in the main function and then print the array:
