@@ -95,6 +95,8 @@ Add the following in the main function and then print the array:
   arr.pop();
 ```
 
+  > `./drills/pop.js`  
+
   - What is the length, capacity, and address of your array? Explain the result of your program after adding the new lines of code.
 
   > length: 3  
@@ -143,7 +145,7 @@ Add the following in the main function and then print the array:
     >  resize events.  
 
 ---
-  > You can use JavaScript's built-in arrays to solve the following drills. After you write the algorithm, identify its time complexity and determine if it needs to be optimized. Start each problem by understanding the problem and coming up with some sample input and output. For your convenience, a few sample input and output are provided.
+  > **You can use JavaScript's built-in arrays to solve the following drills. After you write the algorithm, identify its time complexity and determine if it needs to be optimized. Start each problem by understanding the problem and coming up with some sample input and output. For your convenience, a few sample input and output are provided.**
 ---  
 
 ### 5. URLify a string  
@@ -158,6 +160,8 @@ Input: `www.thinkful.com /tauh ida parv een`
 
 Output: `www.thinkful.com%20/tauh%20ida%20parv%20een`
 
+  > `./drills/understand-arrays.js`  
+  
 ### 6. Filtering an array  
 
 Imagine you have an array of numbers. Write an algorithm to remove all numbers less than 5 from the array. DO NOT use Array's built-in .filter() method here; write the algorithm from scratch.
