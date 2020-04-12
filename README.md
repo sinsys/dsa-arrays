@@ -4,13 +4,15 @@
 
 ### 1. Implement an Array class from scratch.  
 
+  > Array class: `./drills/Array.js`
+  
 Walk through each step of implementing an array. Don't rush through this by copying and pasting the code samples. After you've walked through it and you understand the code of the Array class, hide the sample code and try writing the Array class from scratch using the memory module here for allocating memory.
 
 Be sure to export the memory module and then import it using require.
 
-  > Array class: `./drills/Array.js`
-
 ### 2. Explore the push() method  
+
+  > `./drills/push.js`
 
 Using the Array class you just created above, add an item to the array. Use the following function:
 
@@ -28,8 +30,6 @@ function main(){
     console.log(arr);
 }
 ```
-
-  > `./drills/push.js`
   
   - What is the length, capacity and memory address of your array?
 
@@ -86,6 +86,8 @@ function main(){
 
 ### 3. Exploring the pop() method  
 
+  > `./drills/pop.js`  
+
 Add the following in the main function and then print the array:
 
 ```javascript
@@ -94,8 +96,6 @@ Add the following in the main function and then print the array:
   arr.pop();
   arr.pop();
 ```
-
-  > `./drills/pop.js`  
 
   - What is the length, capacity, and address of your array? Explain the result of your program after adding the new lines of code.
 
@@ -150,6 +150,8 @@ Add the following in the main function and then print the array:
 
 ### 5. URLify a string  
 
+  > `./drills/understand-arrays.js`  
+
 A common mistake users make when they type in an URL is to put spaces between words or letters. A solution that developers can use to solve this problem is to replace any spaces with a %20. Write a method that takes in a string and replaces all its empty spaces with a %20. Your algorithm can only make 1 pass through the string. Examples of input and output for this problem can be
 
 Input: `tauhida parveen`
@@ -158,9 +160,7 @@ Output: `tauhida%20parveen`
 
 Input: `www.thinkful.com /tauh ida parv een`
 
-Output: `www.thinkful.com%20/tauh%20ida%20parv%20een`
-
-  > `./drills/understand-arrays.js`  
+Output: `www.thinkful.com%20/tauh%20ida%20parv%20een`  
   
 ### 6. Filtering an array  
 
