@@ -97,9 +97,9 @@ Add the following in the main function and then print the array:
 
   - What is the length, capacity, and address of your array? Explain the result of your program after adding the new lines of code.
 
-  > length: 3 
-  > Capacity: 8
-  > Memory Address: 4
+  > length: 3  
+  > Capacity: 8  
+  > Memory Address: 4  
   >  
   > **Length:**  
   > 
@@ -115,15 +115,36 @@ Add the following in the main function and then print the array:
 
 ### 4. Understanding more about how arrays work  
 
-  - Print the 1st item in the array arr.
+  > `./drills/understand-arrays.js`  
 
-  - Empty the array and add just 1 item: arr.push("tauhida");
+  - Print the 1st item in the array arr.  
 
-  - Print this 1 item that you just added. What is the result? Can you explain your result?
+    > `console.log(arr.get(0));`  
 
-  - What is the purpose of the _resize() function in your Array class?
+  - Empty the array and add just 1 item: `arr.push("tauhida");`
 
-You can use JavaScript's built-in arrays to solve the following drills. After you write the algorithm, identify its time complexity and determine if it needs to be optimized. Start each problem by understanding the problem and coming up with some sample input and output. For your convenience, a few sample input and output are provided.
+    ```javascript
+    for ( let i = arr.length - 1; i >= 0; i-- ) {
+      arr.remove(i);
+    }
+    ```
+
+  - Print this 1 item that you just added. What is the result? Can you explain your result?  
+
+    >  Results in `NaN`: The get function returns the spot in memory where "tauhida" exists.
+    >  When we push a string into Float64Array(1024) memory it is not a float so it is stored
+    >  as NaN (since that is a number type).  
+
+  - What is the purpose of the _resize() function in your Array class?  
+
+    >  When the new size of the array is larger than the current capacity,
+    >  we copy the array to a new memory address and expand the size of
+    >  the array by the const SIZE_RATIO + 1 to create a buffer and reduce
+    >  resize events.  
+
+---
+  > You can use JavaScript's built-in arrays to solve the following drills. After you write the algorithm, identify its time complexity and determine if it needs to be optimized. Start each problem by understanding the problem and coming up with some sample input and output. For your convenience, a few sample input and output are provided.
+---  
 
 ### 5. URLify a string  
 
