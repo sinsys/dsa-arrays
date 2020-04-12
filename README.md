@@ -33,6 +33,11 @@ function main(){
   
   - What is the length, capacity and memory address of your array?
 
+  > length: 1 
+  > Capacity:  4
+  > Memory Address: 0
+
+    Array { length: 6, _capacity: 8, ptr: 4 }
   - Add the following in the main function and then print the array:
 
 ```javascript
@@ -45,7 +50,34 @@ function main(){
 ```
 
  - What is the length, capacity and memory address of your array? Explain the result of your program after adding the new lines of code.  
-  
+
+  > length: 6
+  > Capacity: 8
+  > Memory Address: 4
+  > 
+  > **Length:**
+  >   Six items were added to the array: 3, 5, 15, 19, 45, 10
+  > **Capacity:**
+  >   The capacity initially was 0, but when the first value was added the `_resize` function
+  >   was called with our SIZE_RATIO constant and the size of the array + 1
+  >   ie - `capacity = 0 + 1 + 3;`
+  >   
+  >   This capacity was fine until the 4th item was added. At this point, the `_resize` function
+  >   needed to be called because the length of the array was equal to its capacity.
+  >   The capacity was increased again the same way as before.
+  >   ie - `capacity = 4 + 1 + 3;`
+  >   
+  >   This capacity works all the way up until 6 items so is never changed again
+  > **Memory Address**
+  >   When the Capacity increases, the Memory Address (aka `ptr`) is assigned to the next closest
+  >   position that will allow the entirety of the array to fit in memory.
+  > 
+  >   ie. Capacity = 4 and Memory Address = 0
+  >       New Memory Address is 4 + 0 = `4`
+  > 
+  >   ie. Capacity = 24 and Memory Address = 60
+  >       New Memory Address is 24 + 60 = `84`
+
 ### 3. Exploring the pop() method  
 
 Add the following in the main function and then print the array:

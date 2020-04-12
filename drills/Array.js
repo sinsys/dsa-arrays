@@ -1,5 +1,5 @@
 // Import our memory simulation
-const Memory = require('./memory');
+const Memory = require('../memory');
 // Define a new instance of memory
 const memory = new Memory();
 
@@ -104,3 +104,5 @@ class Array {
   }
 
 }
+
+module.exports = Array;
