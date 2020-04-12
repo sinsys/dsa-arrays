@@ -4,8 +4,8 @@
 
 ### 1. Implement an Array class from scratch.  
 
-  > Array class: `./drills/Array.js`
-  
+  > `./drills/Array.js`
+
 Walk through each step of implementing an array. Don't rush through this by copying and pasting the code samples. After you've walked through it and you understand the code of the Array class, hide the sample code and try writing the Array class from scratch using the memory module here for allocating memory.
 
 Be sure to export the memory module and then import it using require.
@@ -33,9 +33,9 @@ function main(){
   
   - What is the length, capacity and memory address of your array?
 
-  > length: 1 
-  > Capacity:  4
-  > Memory Address: 0
+  > length: 1  
+  > Capacity:  4  
+  > Memory Address: 0  
 
   - Add the following in the main function and then print the array:
 
