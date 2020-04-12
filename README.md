@@ -37,7 +37,6 @@ function main(){
   > Capacity:  4
   > Memory Address: 0
 
-    Array { length: 6, _capacity: 8, ptr: 4 }
   - Add the following in the main function and then print the array:
 
 ```javascript
@@ -47,7 +46,9 @@ function main(){
     arr.push(19);
     arr.push(45);
     arr.push(10);
-```
+```  
+
+  Array { length: 6, _capacity: 8, ptr: 4 }
 
  - What is the length, capacity and memory address of your array? Explain the result of your program after adding the new lines of code.  
 
