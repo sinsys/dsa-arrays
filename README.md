@@ -97,6 +97,22 @@ Add the following in the main function and then print the array:
 
   - What is the length, capacity, and address of your array? Explain the result of your program after adding the new lines of code.
 
+  > length: 3 
+  > Capacity: 8
+  > Memory Address: 4
+  >  
+  > **Length:**  
+  > 
+  >   3 items were removed from the array (10, 45, 19) so 3 - 3 = 3
+  > 
+  > **Capacity:**  
+  > 
+  >   The capacity had no need to change as we already had enough space to remove 3 items.
+  >   
+  > **Memory Address**  
+  >  
+  >   The Memory Address had no need to change as we already had enough space to remove 3 items and the array was not resized.  
+
 ### 4. Understanding more about how arrays work  
 
   - Print the 1st item in the array arr.
