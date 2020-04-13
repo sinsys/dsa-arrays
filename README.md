@@ -200,6 +200,9 @@ Output: `'Bttl f th Vwls: Hw vs. Grzny'`
 
 ### 10. Products  
 
+
+  > `./drills/products.js`  
+
 Given an array of numbers, write an algorithm to find out the products of every other number except the number at each index.
 
 Input: `[1, 3, 9, 4]`  
