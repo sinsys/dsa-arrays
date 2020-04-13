@@ -7,6 +7,7 @@
 
 // O(n) time & O(n) space
 const mergeArrays = (arr1, arr2) => {
+  
   let mergedArr = [];
   let index1 = 0;
   let index2 = 0;
