@@ -233,6 +233,9 @@ Output:
 ```
 
 ### 12. String rotation
+
+  > `./drills/2d-array.js`  
+
 Given 2 strings, str1 and str2, write a program that checks if str2 is a rotation of str1.
 
 Input: `amazon, azonma`
