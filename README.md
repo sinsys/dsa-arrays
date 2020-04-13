@@ -170,6 +170,8 @@ Imagine you have an array of numbers. Write an algorithm to remove all numbers l
 
 ### 7. Max sum in the array  
 
+  > `./drills/max-sum.js`  
+
 You are given an array containing positive and negative integers. Write an algorithm which will find the largest sum in a continuous sequence.
 
 Input: `[4, 6, -3, 5, -2, 1]`  
